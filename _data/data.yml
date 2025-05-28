@@ -4,24 +4,24 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Uriel Dan Nudelman
-  tagline: Staff Software Engineer<br>Strategic Initiatives, Problem Solving
+  tagline: Staff Software Engineer<br>Strategic Initiatives<br>Problem Solving
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: urinud@gmail.com
-  phone: +1 (954) 401-4993
+  phone: 
   timezone: US/Eastern # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship: American, Argentinian # Enter your citizenship, e.g., American, Argentinian, etc.
   website: https://urinud.github.com/ # Include the full website URL, including "http://" or "https://".
   linkedin: urinud
   xing:
   github: urinud
-  telegram: urinud # add your nickname without '@' sign
+  telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
   bluesky: # Specify your full Bluesky handle
@@ -46,17 +46,14 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Running
       link:
 
-
-    - item: Snowboarding
+    - item: Triathlon
       link:
-
 
     - item: Cooking
       link:
-
 
 career-profile:
   title: Career Profile
@@ -72,211 +69,223 @@ education:
   - degree: Bachelors in Computer Science
     university: Universidad Tecnológica Nacional (UTN) - FRBA
     time: 1997 - 2007
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    details:
   - degree: Electronics Technician
     university: Escuela Técnica ORT
     time: 1991 - 1996
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    details:
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Staff Software Engineer, User Emulation and Attack
+    time: 2015 - Current
+    company: SimSpace (Remote - Miami, FL)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Led the design and implementation of scalable systems to emulate realistic cyber adversary behavior, enabling high-fidelity security testing and red team simulations.
+      - Architected and developed advanced automation frameworks to simulate user activity and cyber attack campaigns across enterprise-scale network environments.
+      - Collaborated cross-functionally with threat intelligence, platform, and infrastructure teams to integrate up-to-date adversary TTPs (tactics, techniques, and procedures) into simulation tools.
+      - Redesigned the team’s software stack to simplify architecture, improve long-term maintainability, and align with SimSpace’s next-generation platform initiatives.
+      - Mentored engineers and contributed to strategic planning and roadmap development to align emulation capabilities with evolving customer and mission needs.
+
+  - role: Staff Software Development Engineer, AI Search & Discovery
+    time: 2020 - 2024
+    company: OfferUp (Remote - Miami, FL)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Led development of advanced **multimodal search platform** integrating semantic and visual search capabilities, enabling users to discover items through text and images, resulting in **35% improvement in search relevance** and **20% increase in user engagement**.
+      - Designed and optimized 10+ search clusters implementing advanced relevance engineering, kNN, and neural search capabilities, supporting both text and visual queries with **25% increase in search accuracy** and **15% faster response times**.
+      - Architected enterprise search infrastructure modernization using AWS OpenSearch, resulting in **$500K annual cost savings** and **30% improved query performance** across multimodal search operations.
+      - Developed and optimized backend architecture supporting multimodal search capabilities, achieving **99.99% uptime** and handling **>500K concurrent users**.
+      - Spearheaded critical search provider migration initiative, orchestrating seamless collaboration across 6 key departments (BizOps, DevOps, Data Science, Trust & Safety, Ads, Management), completing migration 2 months ahead of schedule 
+      - Pioneered AI-powered text and image feature extraction system for automated search index maintenance, reducing manual indexing effort by 40% and improving index freshness by 60% 
+      - Implemented infrastructure-as-code using Terraform for AWS resource management (DynamoDB, EC2, load balancers), reducing deployment time by 65% and configuration errors by 80%.
+
+  - role: Senior Software Architect
+    time: 2018 - 2020
+    company: GRID Systems (Hybrid - Plantation, FL)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Led architecture and development of enterprise-scale full-stack applications using .NET Core, Angular, and React, delivering **35% efficiency gains** in property management operations and reducing manual workflow time by **40%**.
+      - Architected microservices-based property management platform serving **>100K daily users**, resulting in **40% improved application performance** and **25% reduction** in infrastructure costs.
+      - Designed scalable API architecture handling **>1M daily transactions**, supporting real-time property management operations across multiple regions.
+      - Engineered cloud-first transformation by modernizing legacy systems to serverless architecture using AWS Lambda and Cognito, resulting in **60% reduced maintenance costs** and 99.99% system availability. 
+      - Implemented comprehensive DevOps automation strategy using Jenkins and Microsoft DevOps, achieving **75% faster deployment cycles** and **90% reduction** in production incidents. 
+      - Established global development excellence program, mentoring 4 international teams across 3 regions, leading to 30% increase in team velocity and 50% reduction in technical debt.
+      - Spearheaded adoption of automated testing frameworks and CI/CD pipelines, improving code quality metrics by 45% and reducing regression issues by 70%.
+
+  - role: Founder
+    time: 2018 - Current
+    company: NUCOA Systems (Remote - Miami, FL)
+    details: |
+      - Architected and delivered enterprise-grade software solutions and cloud infrastructure strategies across multiple industry verticals, driving digital transformation for Fortune 500 clients.
+      - Engineered a proprietary printing automation platform for Silidog featuring dynamic SVG rendering and real-time multi-source data synchronization, resulting in 70% reduction in processing time.
+      - Designed and implemented sophisticated integration services utilizing REST APIs and secure FTP protocols, enabling seamless data flow across disparate systems, and reducing manual interventions by 85%.
+
+  - role: Vice President, Software Architecture
+    time: 2010 - 2018
+    company: Beesion Technologies (Hybrid - Fort Lauderdale, FL)
+    details: |
+      - Led global integration architecture initiatives and managed distributed development teams across three continents (USA, Europe, Latin America), orchestrating delivery of mission-critical enterprise solutions serving over 2M users 
+      - Established and implemented enterprise-wide best practices for workflow optimization and risk management in BSS/OSS solutions, achieving 99.99% system availability and 40% reduction in operational risks 
+      - Orchestrated IT infrastructure strategy across hybrid cloud environments and multiple datacenters, implementing zero-trust security architecture while maintaining sub-200ms response times for critical services 
+      - Architected and delivered custom workflow automation engines supporting concurrent processing of 100K+ daily transactions, featuring advanced task scheduling and real-time KPI monitoring capabilities 
+      - Spearheaded large-scale protocol migration initiatives from SOAP to REST architectures, ensuring zero downtime during transition while handling peak loads of 5000 requests per second
 
 certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  # title: Certifications
+  # list:
+  # - name: CV Builder
+  #   start: 2020
+  #   end: 2021
+  #   organization: Microsoft
+  #   credentialid: 111-222
+  #   credentialurl: www.google.com
+  #   credentialname: Google
+  #   details: |
+  #     Details about cert. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  #     Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+  #     fringilla vel. Ut euismod, sem sed vulputate venenatis,
+  #     justo diam viverra velit, sed rhoncus leo leo eu justo.
+  #     Suspendisse placerat risus ante, sed porta nisi blandit at.
+  # - name: Git learning
+  #   start: 2019
+  #   end:
+  #   organization: Microsoft
+  #   credentialid: 111-222
+  #   credentialurl: www.github.com
+  #   credentialname: Github
+  #   details: |
+  #     Older certification. Lorem ipsum dolor sit amet, consectetur
+  #     adipiscing elit.
+  #     Nullam eget orci purus. Nullam ultrices neque nibh.
+  #     Aenean fermentum, felis vulputate suscipit accumsan,
+  #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+  #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+  #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+  #     Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  # title: Projects
+  # intro: >
+  #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # assignments:
+  # - title: Velocity
+  #   link: "#hook"
+  #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  # - title: DevStudio
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  # - title: Tempo
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  # - title: Atom
+  #   link: "#"
+  #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  # - title: Delta
+  #   link: "#"
+  #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  # title: OSS Contributions
+  # intro: >
+  #   You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # contributions:
+  # - title: Tempo
+  #   link: "#"
+  #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  # - title: Atom
+  #   link: "#"
+  #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  # - title: Delta
+  #   link: "#"
+  #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  # title: Publications
+  # intro: |
+  #   You can list your publications in this section. Lorem ipsum dolor sit
+  #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #   bibendum fringilla a eu lectus.
+  # papers:
+  # - title: The Art of Computer Programming
+  #   link: "#"
+  #   authors: Donald E. Knuth
+  #   conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  #   link: "#"
+  #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+  #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  # - title: A syntax directed compiler for Algol 60
+  #   link: "#"
+  #   authors: Edgar T. Irons
+  #   conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+  # title: Recommendations
+  # list:
+  # - person: Yareli Perez
+  #   email: perezyareli@example.com
+  #   phone: 012 345 6789
+  #   role: General Director at example.com
+  #   recommendation: |
+  #     Alan Doe is a super employee!
+  # - person: Lara Henderson
+  #   email: larah@example.com
+  #   phone: 012 345 6789
+  #   role: General Director at example.com
+  #   recommendation: |
+  #     I would like to work with Alan Doe again!
 
-      He is a great employee!
+  #     He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name:
+    level:
+    details: |
+      **Programming & Development**:<br>Java, .NET (C#), JavaScript, Python, and other programming languages.
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name:
+    level:
+    details: |
+      **Cloud Platforms**:<br>AWS (DynamoDB, Lambda, S3, EC2, Route 53, IAM), Azure.
 
-  - name: Angular
-    level: 98%
+  - name:
+    level:
+    details: |
+      **Search Technologies**:<br>OpenSearch, Elasticsearch (kNN, Neural, Semantic, Image Searches).
 
-  - name: HTML5 & CSS
-    level: 95%
+  - name:
+    level:
+    details: |
+      **DevOps & Infrastructure**:<br>Terraform, Jenkins, Microsoft DevOps, VPN, Automated Deployments.
 
-  - name: Ruby on Rails
-    level: 85%
+  - name:
+    level:
+    details: |
+      **Database Systems**:<br>SQL Server, Oracle, RDS, DynamoDB.
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name:
+    level:
+    details: |
+      **Leadership & Collaboration**:<br>Team Building, Project Management, Mentoring, Cross-Team Collaboration.
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  For more information open <a href="https://www.linkedin.com/in/urinud/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
