@@ -8,24 +8,24 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Uriel Dan Nudelman
+  tagline: Staff Software Engineer<br>Strategic Initiatives, Problem Solving
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  email: urinud@gmail.com
+  phone: +1 (954) 401-4993
+  timezone: US/Eastern # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: American, Argentinian # Enter your citizenship, e.g., American, Argentinian, etc.
+  website: https://urinud.github.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: urinud
+  xing:
+  github: urinud
+  telegram: urinud # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter: # Include the '@' sign before your Twitter handle
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,13 +38,10 @@ sidebar:
     title: Languages
     info:
     - idiom: English
-      level: Native
-
-    - idiom: French
       level: Professional
 
     - idiom: Spanish
-      level: Professional
+      level: Native
 
   interests:
     title: Interests
@@ -64,18 +61,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Distinguished Solutions Architect and Full Stack Developer with 25 years of experience spearheading enterprise software architecture and cloud innovations.
+    Demonstrated track record of architecting high-performance, scalable systems while providing technical leadership to cross-functional teams.
+    Deep expertise in search technologies, including OpenSearch and ElasticSearch implementations.
+    Known for leveraging cutting-edge technologies in AI, cloud-native development, and DevOps automation to drive transformative business solutions.
+    Combines strategic vision with hands-on technical excellence to deliver robust enterprise architectures that scale.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelors in Computer Science
+    university: Universidad Tecnológica Nacional (UTN) - FRBA
+    time: 1997 - 2007
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,9 +80,9 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: Electronics Technician
+    university: Escuela Técnica ORT
+    time: 1991 - 1996
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
