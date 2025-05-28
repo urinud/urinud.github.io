@@ -204,6 +204,7 @@ p {
   }
  
   .time,
+  .location,
   .cert-url {
     position: absolute;
     right: 0;
@@ -217,6 +218,7 @@ p {
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
+    font-weight: 1000;
   }
 
   .project-title {

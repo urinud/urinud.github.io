@@ -79,8 +79,9 @@ experiences:
   title: Experiences
   info:
   - role: Staff Software Engineer, User Emulation and Attack
-    time: 2015 - Current
-    company: SimSpace (Remote - Miami, FL)
+    time: 2015 - Present
+    company: SimSpace
+    location: Remote - Miami, FL
     details: |
       - Led the design and implementation of scalable systems to emulate realistic cyber adversary behavior, enabling high-fidelity security testing and red team simulations.
       - Architected and developed advanced automation frameworks to simulate user activity and cyber attack campaigns across enterprise-scale network environments.
@@ -90,7 +91,8 @@ experiences:
 
   - role: Staff Software Development Engineer, AI Search & Discovery
     time: 2020 - 2024
-    company: OfferUp (Remote - Miami, FL)
+    company: OfferUp
+    location: Remote - Miami, FL
     details: |
       - Led development of advanced **multimodal search platform** integrating semantic and visual search capabilities, enabling users to discover items through text and images, resulting in **35% improvement in search relevance** and **20% increase in user engagement**.
       - Designed and optimized 10+ search clusters implementing advanced relevance engineering, kNN, and neural search capabilities, supporting both text and visual queries with **25% increase in search accuracy** and **15% faster response times**.
@@ -102,7 +104,8 @@ experiences:
 
   - role: Senior Software Architect
     time: 2018 - 2020
-    company: GRID Systems (Hybrid - Plantation, FL)
+    company: GRID Systems
+    location: Hybrid - Plantation, FL
     details: |
       - Led architecture and development of enterprise-scale full-stack applications using .NET Core, Angular, and React, delivering **35% efficiency gains** in property management operations and reducing manual workflow time by **40%**.
       - Architected microservices-based property management platform serving **>100K daily users**, resulting in **40% improved application performance** and **25% reduction** in infrastructure costs.
@@ -113,8 +116,9 @@ experiences:
       - Spearheaded adoption of automated testing frameworks and CI/CD pipelines, improving code quality metrics by 45% and reducing regression issues by 70%.
 
   - role: Founder
-    time: 2018 - Current
-    company: NUCOA Systems (Remote - Miami, FL)
+    time: 2018 - Present
+    company: NUCOA Systems
+    location: Remote - Miami, FL
     details: |
       - Architected and delivered enterprise-grade software solutions and cloud infrastructure strategies across multiple industry verticals, driving digital transformation for Fortune 500 clients.
       - Engineered a proprietary printing automation platform for Silidog featuring dynamic SVG rendering and real-time multi-source data synchronization, resulting in 70% reduction in processing time.
@@ -122,7 +126,8 @@ experiences:
 
   - role: Vice President, Software Architecture
     time: 2010 - 2018
-    company: Beesion Technologies (Hybrid - Fort Lauderdale, FL)
+    company: Beesion Technologies
+    location: Hybrid - Fort Lauderdale, FL
     details: |
       - Led global integration architecture initiatives and managed distributed development teams across three continents (USA, Europe, Latin America), orchestrating delivery of mission-critical enterprise solutions serving over 2M users 
       - Established and implemented enterprise-wide best practices for workflow optimization and risk management in BSS/OSS solutions, achieving 99.99% system availability and 40% reduction in operational risks 
